@@ -1,0 +1,59 @@
+// Alerts
+// --------------------------------------------------
+
+.alert {
+  @include padding(10px, 15px, 10px, 15px);
+  @include margin(10px, null, 10px, null);
+  border-radius: $border-radius;
+}
+.alert .alert-link {
+  font-weight: bold;
+}
+.alert-info {
+  color: lighten($bg-info, 50%);
+  background-color: $bg-info;
+  border-color: darken($bg-info, 50%);
+  @include border(1px, solid, darken($bg-info, 25%));
+}
+.alert-info p {
+  color: lighten($bg-info, 50%);
+}
+.alert-info .alert-link {
+  color: darken($bg-info, 25%);
+}
+.alert-success {
+  color: lighten($bg-success, 50%);
+  background-color: $bg-success;
+  border-color: darken($bg-success, 50%);
+  @include border(1px, solid, darken($bg-success, 25%));
+}
+.alert-success p {
+  color: lighten($bg-success, 50%);
+}
+.alert-success .alert-link {
+  color: darken($bg-success, 25%);
+}
+.alert-warning {
+  color: lighten($bg-warning, 50%);
+  background-color: $bg-warning;
+  border-color: darken($bg-warning, 50%);
+  @include border(1px, solid, darken($bg-warning, 25%));
+}
+.alert-warning p {
+  color: lighten($bg-warning, 50%);
+}
+.alert-warning .alert-link {
+  color: darken($bg-warning, 25%);
+}
+.alert-error {
+  color: lighten($bg-error, 50%);
+  background-color: $bg-error;
+  border-color: darken($bg-error, 50%);
+  @include border(1px, solid, darken($bg-error, 25%));
+}
+.alert-error p {
+  color: lighten($bg-error, 50%);
+}
+.alert-error .alert-link {
+  color: darken($bg-error, 25%);
+}

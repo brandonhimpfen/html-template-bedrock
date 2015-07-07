@@ -1,0 +1,40 @@
+// Tags
+// --------------------------------------------------
+
+.tag {
+  display: inline-block;
+  font-weight: inherit;
+  text-align: center;
+  vertical-align: middle;
+  border: 0;
+  white-space: nowrap;
+  @include padding(2px, 8px, 2px, 8px);
+  font-size: inherit;
+  line-height: inherit;
+  @include border-radius($border-radius);
+  color: $tag-color;
+}
+.tag.bg-default {
+  color: $color-inverse;
+}
+.tag.bg-inverse {
+  color: $tag-color;
+}
+.tag.bg-primary {
+  color: $tag-color;
+}
+.tag.bg-secondary {
+  color: $tag-color;
+}
+.tag.bg-info {
+  color: $tag-color;
+}
+.tag.bg-success {
+  color: $tag-color;
+}
+.tag.bg-warning {
+  color: $tag-color;
+}
+.tag.bg-error {
+  color: $tag-color;
+}

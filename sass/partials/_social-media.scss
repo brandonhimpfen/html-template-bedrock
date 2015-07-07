@@ -1,0 +1,94 @@
+// Social Media
+// --------------------------------------------------
+
+.button-twitter {
+    background: $button-twitter-bg;
+    border-radius: $border-radius;
+    color: $button-link-color;
+    @include border(1px, solid, darken($button-twitter-bg, 15%));
+}
+.button-twitter:link, .button-twitter:visited {
+    color: $button-link-color;
+}
+.button-twitter:active, .button-twitter:hover {
+    background: darken($button-twitter-bg, $button-darken-bg);
+    color: $button-link-color;
+}
+.button-facebook {
+    background: $button-facebook-bg;
+    border-radius: $border-radius;
+    color: $button-link-color;
+    @include border(1px, solid, darken($button-facebook-bg, 15%));
+}
+.button-facebook:link, .button-facebook:visited {
+    color: $button-link-color;
+}
+.button-facebook:active, .button-facebook:hover {
+    background: darken($button-facebook-bg, $button-darken-bg);
+    color: $button-link-color;
+}
+.button-googleplus {
+    background: $button-googleplus-bg;
+    border-radius: $border-radius;
+    color: $button-link-color;
+    @include border(1px, solid, darken($button-googleplus-bg, 15%));
+}
+.button-googleplus:link, .button-googleplus:visited {
+    color: $button-link-color;
+}
+.button-googleplus:active, .button-googleplus:hover {
+    background: darken($button-googleplus-bg, $button-darken-bg);
+    color: $button-link-color;
+}
+.button-stumbleupon {
+    background: $button-stumbleupon-bg;
+    border-radius: $border-radius;
+    color: $button-link-color;
+    @include border(1px, solid, darken($button-stumbleupon-bg, 15%));
+}
+.button-stumbleupon:link, .button-stumbleupon:visited {
+    color: $button-link-color;
+}
+.button-stumbleupon:active, .button-stumbleupon:hover {
+    background: darken($button-stumbleupon-bg, $button-darken-bg);
+    color: $button-link-color;
+}
+.button-linkedin {
+    background: $button-linkedin-bg;
+    border-radius: $border-radius;
+    color: $button-link-color;
+    @include border(1px, solid, darken($button-linkedin-bg, 15%));
+}
+.button-linkedin:link, .button-linkedin:visited {
+    color: $button-link-color;
+}
+.button-linkedin:active, .button-linkedin:hover {
+    background: darken($button-linkedin-bg, $button-darken-bg);
+    color: $button-link-color;
+}
+.button-reddit {
+    background: $button-reddit-bg;
+    border-radius: $border-radius;
+    color: $button-link-color;
+    @include border(1px, solid, darken($button-reddit-bg, 15%));
+}
+.button-reddit:link, .button-reddit:visited {
+    color: $button-link-color;
+}
+.button-reddit:active, .button-reddit:hover {
+    background: darken($button-reddit-bg, $button-darken-bg);
+    color: $button-link-color;
+}
+.button-email {
+    background: $button-email-bg;
+    border-radius: $border-radius;
+    color: $button-link-color;
+    @include border(1px, solid, darken($button-email-bg, 15%));
+}
+.button-email:link, .button-email:visited {
+    color: $button-link-color;
+}
+.button-email:active, .button-email:hover {
+    background: darken($button-email-bg, $button-darken-bg);
+    color: $button-link-color;
+}

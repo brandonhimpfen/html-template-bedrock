@@ -1,0 +1,147 @@
+// Variables
+// --------------------------------------------------
+
+// Screen sizes
+// ==========================================================================
+
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+// Font styles
+// ==========================================================================
+
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+
+$font-family: $font-family-sans-serif;
+$html-font-size: 16px;
+$font-size: 14px;
+$line-height: 1.5em;
+$font-color: #222;
+
+$h1-font-size: 32px;
+$h2-font-size: 26px;
+$h3-font-size: 22px;
+$h4-font-size: 18px;
+$h5-font-size: $font-size;
+
+$font-size-button-sm: 12px;
+$font-size-button-lg: 18px;
+$font-size-button-xl: 24px;
+
+$paragraph-lead-multiplier: 1.25; // state multiplier as a number, not a percentage. 125% equals 1.25.
+$paragraph-lead: $font-size * $paragraph-lead-multiplier;
+
+// Links
+// ==========================================================================
+
+$link-color: #12C2E9;
+$link-color-hover: #007da5;
+
+// Selection Colours
+// ==========================================================================
+
+$selection-bg: #12C2E9;
+$selection-color: #FFF;
+
+// General
+// ==========================================================================
+
+$border-color: #CCC;
+$hr-border-color: #CCC;
+
+// Border Radius
+// ==========================================================================
+
+$border-radius: 0;
+$border-radius-button-sm: 0;
+$border-radius-button-lg: 0;
+$border-radius-button-xl: 0;
+
+// Colours: Default colours but you can override for each component
+// ==========================================================================
+
+$color-default: #D9D9D9;
+$color-inverse: #000;
+$color-primary: #1C7EBB;
+$color-secondary: #9933CC;
+$color-info: #2EC1CC;
+$color-success: #77B300;
+$color-warning: #FF8800;
+$color-error: #CC0000;
+
+// Buttons
+// ==========================================================================
+
+$button-link-color: #fff;
+
+$button-darken-bg: 15%;
+$button-lighten-bg: 15%;
+
+$button-default-bg: $color-default;
+$button-inverse-bg: $color-inverse;
+$button-search-bg: #424242;
+$button-primary-bg: $color-primary;
+$button-secondary-bg: $color-secondary;
+$button-info-bg: $color-info;
+$button-success-bg: $color-success;
+$button-warning-bg: $color-warning;
+$button-error-bg: $color-error;
+
+$button-twitter-bg: #00ACEE;
+$button-facebook-bg: #3B5998;
+$button-googleplus-bg: #E93F2E;
+$button-stumbleupon-bg: #fF4425;
+$button-linkedin-bg: #0E76A8;
+$button-reddit-bg: #EE3825;
+$button-email-bg: #111;
+
+// Types
+// ==========================================================================
+
+$bg-default: $color-default;
+$bg-inverse: $color-inverse;
+$bg-primary: $color-primary;
+$bg-secondary: $color-secondary;
+$bg-info: $color-info;
+$bg-success: $color-success;
+$bg-warning: $color-warning;
+$bg-error: $color-error;
+
+$text-default: $color-default;
+$text-inverse: $color-inverse;
+$text-primary: $color-primary;
+$text-secondary: $color-secondary;
+$text-info: $color-info;
+$text-success: $color-success;
+$text-warning: $color-warning;
+$text-error: $color-error;
+
+// Grids and Containers
+// ==========================================================================
+
+$container-size: 1140px;
+
+// Tags / Labels
+// ==========================================================================
+
+$tag-color: #FFF;
+
+// Tables
+// ==========================================================================
+
+$table-border-color: #DDD;
+$table-td-border-color: #DDD;
+$table-th-bg: #DDD;
+$table-striped-even-bg: #FFF;
+$table-striped-odd-bg: #EEE;
+
+// Tables
+// ==========================================================================
+
+$showcase-bg: #EEE;
+$showcase-font-size-multiplier: 1.15;  // state multiplier as a number, not a percentage. 125% equals 1.25.
+$showcase-font-size: $font-size * $showcase-font-size-multiplier;
